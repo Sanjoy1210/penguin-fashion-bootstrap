@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@400;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-family: 'Bebas Neue', cursive;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* ==========================
+        Header Ares Style
+=============================*/
+.header {
+    background-color: #FFF9F4;
+}
+.menu {
+    justify-content: flex-end;
+}
+
+.section-title {
+    line-height: 5rem;
+}
+
+.highlight {
+    color: #FA804C;
+}
+
+.penguin-buy-now-btn {
+    background-image: linear-gradient(180deg, #3D4FF3 0%, #3543BC 100%);
+    border-radius: 10px;
+    padding: 18px 32px;
+}
+
+
+/* ========================
+        Casual Section 
+===========================*/
+.single-item {
+    border-radius: 20px;
+}
+
+.single-item img {
+    background-color: #F1F1F1;
+    padding: 18px;
+    border-radius: 20px;
+}
